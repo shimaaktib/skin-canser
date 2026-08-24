@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Environment
+.env
+**/.env
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Model checkpoints are intentionally NOT ignored here - this project ships them as part of
+# the deployable backend (backend/models/*.pth). If you move to Git LFS or external model
+# storage, add backend/models/*.pth here instead.
